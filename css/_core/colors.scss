@@ -1,0 +1,9 @@
+.bg{
+  background-color: $tertiary;
+}
+svg.bg{
+  &-tertiary{
+    color: $tertiary;
+  }
+  background: transparent;
+}

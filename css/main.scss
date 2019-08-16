@@ -9,7 +9,7 @@
 	base level Height :
 	base level Width :
 
-	sass --watch main.scss:style.css --style compressed
+	sass --watch main.scss:style.css _plugins/bootstrap/bootstrap.scss:bootstrap.css --style compressed 
 
 */
 
@@ -51,10 +51,11 @@
 	$u160: 10rem;
 
 	// Primary Colors
-
 	// Secondary Colors
+	// Imported from Bootstrap
 
 	// Tertiary Colors
+	$tertiary: #9d0bf2;
 
 	// Background Color
 
@@ -88,6 +89,7 @@
 		HTML 5 Resets
 	------------ */
 		@import './_core/reset.scss';
+		@import './_core/colors.scss';
 	/* ------------
 		Selection
 	------------ */
@@ -143,9 +145,7 @@
 /* =============================================================================
 	 5. Content
 ========================================================================== */
-		#main{
 
-		}
 	/* ------------
 		Components
 	------------ */
