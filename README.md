@@ -1,1 +1,4 @@
-# one-page-parallax
+# Bootstrap Card
+
+- Using Bootstrap
+- 
