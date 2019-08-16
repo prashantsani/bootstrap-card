@@ -96,10 +96,7 @@
 	/* ------------
 		Selection
 	------------ */
-	ol.unstyled,
-	ul.unstyled{
-		list-style-type: none;
-	}
+
 	/* ------------
 		Links & Buttons
 	------------ */
@@ -186,7 +183,7 @@
 ========================================================================== */
 
 @media print {
-	#hamburger{
-		display: none
-	}
+	// #hamburger{
+	// 	display: none
+	// }
 }

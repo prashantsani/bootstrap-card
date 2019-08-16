@@ -128,13 +128,13 @@
     @include transform(translateY(-50%));
 }
 
-.background-cover{
+.bg-cover{
     @include crossBrowser(background-size, cover);
     background-position: center center;
     background-repeat:no-repeat
 }
 
-.background-contain{
+.bg-contain{
     @include crossBrowser(background-size, contain);
     background-position: center center;
     background-repeat:no-repeat
