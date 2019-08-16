@@ -72,8 +72,9 @@
 
 </head>
 <body id="body">
-
+	
 	<noscript><p class="warning"><a href="http://www.enable-javascript.com/" target="_blank">To enjoy the full website, first enable JavaScript</a></p></noscript>
+
 	
 	<main class="container vh-100 d-flex justify-content-center align-items-center my-0 py-0">
 		<article class="card w-100 shadow p-4">
@@ -107,5 +108,28 @@
 	<script>
 		window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-115440559-1');
 	</script>
+
+	<svg width="0" height="0" display="none" aria-hidden="true">
+		<!-- Much better option that importing a libarary -->
+		<!-- When the icons increase, this could be a separate file, imported using ajax -->
+		<!-- 
+			
+			The Advantages of importing using a separate file
+			1. SVG could be cached
+			2. Easier to extend/remove icons, since its a separate file 
+			3. SVG tools can directly optimise the code since its a separate file 
+			4. We could use a tool like grunt to create a single svg sprite file which imports several other SVG files 
+			
+		-->
+		<!-- SVG Symbol definations -->
+		<!-- Icons downloaded from https://iconmonstr.com/-->
+		<symbol id="icon-heart" viewBox="0 0 24 24"><path d="M17.516 3c2.382 0 4.487 1.564 4.487 4.712 0 4.963-6.528 8.297-10.003 11.935-3.475-3.638-10.002-6.971-10.002-11.934 0-3.055 2.008-4.713 4.487-4.713 3.18 0 4.846 3.644 5.515 5.312.667-1.666 2.333-5.312 5.516-5.312zm0-2c-2.174 0-4.346 1.062-5.516 3.419-1.17-2.357-3.342-3.419-5.515-3.419-3.403 0-6.484 2.39-6.484 6.689 0 7.27 9.903 10.938 11.999 15.311 2.096-4.373 12-8.041 12-15.311 0-4.586-3.414-6.689-6.484-6.689z"/></symbol>
+		<symbol id="icon-check" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></symbol>
+		<symbol id="icon-star" viewBox="0 0 24 24"><path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z"/></symbol>
+		<symbol id="icon-diamond" viewBox="0 0 24 24"><path d="M7.388 9h9.225l-4.613 14-4.612-14zm.612-2h8l-4-5.333-4 5.333zm10.5 0h5.5l-6-6h-4l4.5 6zm-13 0l4.5-6h-3.916l-6.084 6h5.5zm-5.5 2l9.234 12-3.955-12h-5.279zm18.721 0l-3.924 12 9.203-12h-5.279z"/></symbol>
+		<symbol id="icon-chat" viewBox="0 0 24 24"><path d="M12 3c5.514 0 10 3.592 10 8.007 0 4.917-5.144 7.961-9.91 7.961-1.937 0-3.384-.397-4.394-.644-1 .613-1.594 1.037-4.272 1.82.535-1.373.722-2.748.601-4.265-.837-1-2.025-2.4-2.025-4.872 0-4.415 4.486-8.007 10-8.007zm0-2c-6.338 0-12 4.226-12 10.007 0 2.05.739 4.063 2.047 5.625.055 1.83-1.023 4.456-1.993 6.368 2.602-.47 6.301-1.508 7.978-2.536 1.417.345 2.774.503 4.059.503 7.084 0 11.91-4.837 11.91-9.961-.001-5.811-5.702-10.006-12.001-10.006z"/></symbol>
+		<symbol id="icon-phone" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"/></svg>
+	</svg>
+
 </body>
 </html>
