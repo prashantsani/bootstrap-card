@@ -5,5 +5,10 @@ svg.bg{
   &-tertiary{
     color: $tertiary;
   }
-  background: transparent;
+  &-white{
+    color: $white;
+  }
+}
+#body svg{
+  background: transparent !important;
 }

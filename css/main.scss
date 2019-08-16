@@ -77,10 +77,12 @@
 /* =============================================================================
 	 2. Fonts / Mixins / Functions / Plugins
 ========================================================================== */
-	@import './_fonts/fonts.scss';
-	@import './_plugins/mixins.scss';
-	@import './_plugins/flex.scss';
-	@import './_components/preloader.scss';
+	@import './_plugins/bootstrap/functions';
+	@import './_plugins/bootstrap/variables';
+	@import './_fonts/fonts';
+	@import './_plugins/mixins';
+	@import './_plugins/flex';
+	@import './_components/preloader';
 
 /* =============================================================================
 	 3. Global Styles, Resets, Global Links, Abstraction
